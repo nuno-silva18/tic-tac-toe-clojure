@@ -12,7 +12,7 @@
   "A utility function to get a diagonal of the board. Case 1 fetches the diagonal when X and Y are equal but different from 1, case 2 fetches the anti-diagonal when X and Y are different from 1,
   case 3 fetches both the diagonal and anti-diagonal, for when X and Y are 1."
   [board, user_coord, case]
-  (if (= case 1)))
+  )
 
 (defn gui_imperative
   "GUI for the game board done in an imperative programming style."
@@ -65,7 +65,7 @@
           (println "Player 1 wins!"))
         (if (= (map #(identical? \X %) (get_column board (last user_coord))) '(true true true))
           (println "Player 1 wins!"))
-        ))
+        )))
 
 (defn make_move
   "Allows the player to make a move on the board."

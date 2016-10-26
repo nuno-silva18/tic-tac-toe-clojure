@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a34041be-f738-46c3-b234-522b3263d7d5" name="Default" comment="" />
-    <ignored path="tic-tac-toe.iws" />
+    <list default="true" id="f17fb980-125d-4c80-bc6a-0e28cdbe12e8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/tic_tac_toe/core.clj" afterPath="$PROJECT_DIR$/src/tic_tac_toe/core.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tic-tac-toe.iml" afterPath="$PROJECT_DIR$/tic-tac-toe.iml" />
+    </list>
+    <ignored path="tic-tac-toe-clojure.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,21 +27,44 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
-    <favorites_list name="tic-tac-toe" />
+    <favorites_list name="tic-tac-toe-clojure" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="tic-tac-toe-clojure.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tic-tac-toe-clojure.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+            <state relative-caret-position="238">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tic-tac-toe.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tic-tac-toe.iml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -41,7 +74,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/project.clj" />
+        <option value="$PROJECT_DIR$/tic-tac-toe-clojure.iml" />
         <option value="$PROJECT_DIR$/src/tic_tac_toe/core.clj" />
       </list>
     </option>
@@ -83,38 +116,65 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemId" value="tic-tac-toe-clojure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemId" value="tic-tac-toe-clojure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tic-tac-toe" />
+              <option name="myItemId" value="tic-tac-toe-clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe-clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic-tac-toe-clojure" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tic_tac_toe" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="ReplState" timestamp="1477523975356">{:repl-history {:ide [], :local [&quot;(gui '((0 0 0) (0 0 0) (0 0 0)))&quot; &quot;(reduce println '(1 2))&quot; &quot;(reduce println (0 1 2))&quot; &quot;(reduce println '(0 1 2))&quot; &quot;(gui_cloj '((0 0 0) (0 0 0) (0 0 0)))&quot; &quot;(gui_cloj ((0 0 0)))&quot; &quot;(gui_cloj '(0 0 0))&quot; &quot;(gui_cloj (1))&quot; &quot;(gui_cloj ('(0 0 0)))&quot; &quot;(interpose | '(0 0 0))&quot; &quot;(interpose \&quot;|\&quot; '(0 0 0))&quot; &quot;(apply str (interpose \&quot;|\&quot; '(0 0 0)))&quot; &quot;(apply str \&quot;|\&quot; (interpose \&quot;|\&quot; '(0 0 0)) \&quot;|\&quot;)&quot; &quot;(doall (apply str \&quot;|\&quot; (interpose \&quot;|\&quot; '(0 0 0)) \&quot;|\&quot;))&quot; &quot;(map #( println (apply str %)) [\&quot;|\&quot; (interpose \&quot;|\&quot; '(0 0 0)) \&quot;|\&quot;]))&quot; &quot;(map #(apply str %) [\&quot;|\&quot; (interpose \&quot;|\&quot; '(0 0 0)) \&quot;|\&quot;])&quot; &quot;(println (map #(apply str %) [\&quot;|\&quot; (interpose \&quot;|\&quot; '(0 0 0)) \&quot;|\&quot;]))&quot; &quot;(println (map #(apply str %) [\&quot;|\&quot;(interpose \&quot;|\&quot; '(0 0 0))\&quot;|\&quot;]))&quot; &quot;(map #(apply str %) [\&quot;|\&quot;(interpose \&quot;|\&quot; '(0 0 0))\&quot;|\&quot;]))&quot; &quot;(map #(apply str %) [\&quot;|\&quot;(interpose \&quot;|\&quot; '(0 0 0))\&quot;|\&quot;])&quot; &quot;(map #(apply str \&quot;|\&quot; % \&quot;|\&quot;) [(interpose \&quot;|\&quot; '(0 0 0))])&quot; &quot;(map #(apply str % ) [\&quot;|\&quot;(interpose \&quot;|\&quot; '(0 0 0))] \&quot;|\&quot;)&quot; &quot;(map #(apply str % ) [\&quot;|\&quot;(interpose \&quot;|\&quot; '(0 0 0)) \&quot;|\&quot;])&quot; &quot;(concat \&quot;|\&quot;(apply str (interpose \\| '(0 0 0))))&quot; &quot;(concat \\| (apply str (interpose \\| '(0 0 0))))&quot; &quot;(concat '(\\|) (apply str (interpose \\| '(0 0 0))))&quot; &quot;(apply str (interpose \\| '(0 0 0)))&quot; &quot;(apply str \\| (interpose \\| '(0 0 0)) \&quot;|\&quot;)&quot; &quot;(apply str \\| (interpose \\| '(0 0 0)) \\|)&quot; &quot;(apply str \\| (interpose \\| '(0 0 0 )) \\|)&quot; &quot;(apply str \\| (interpose \\| '(0 0 0 )))&quot; &quot;(apply str \\| (interpose \\| '(0 0 0 \&quot;\&quot;)))&quot; &quot;(apply str \\| \\| (interpose \\| '(0 0 0)))&quot; &quot;(apply str \\| '(0 | 0 | 0) \\|)&quot; &quot;(apply str [\\| (interpose \\| '(0 0 0)) \\|])&quot; &quot;1&quot; &quot;(apply str [\\| (interpose \\| '(0 0 0))])&quot; &quot;(apply str \\| (interpose \\| '(0 0 0)))&quot; &quot;(concat [(apply str \\| (interpose \\| '(0 0 0)))] \\|)&quot; &quot;(concat [(apply str \\| (interpose \\| '(0 0 0))) \\|])&quot; &quot;(concat [(apply str \\| (interpose \\| '(0 0 0))) \&quot;|\&quot;])&quot; &quot;(str (apply str \\| (interpose \\| '(0 0 0))) \&quot;|\&quot;)&quot; &quot;(str (apply str \\| (interpose \\| '(0 0 0))) \\|)&quot; &quot;(def board '((0 0 0) (0 0 0) (0 0 0)))&quot; &quot;(map inc board)&quot; &quot;(map #(println %) board)&quot; &quot;(map #(println (str (apply str \\| (interpose \\| %)) \\|)) board)&quot; &quot;(gui_cloj board)&quot; &quot;(-main)&quot; &quot;(def board ((0 0 0)))&quot; &quot;(def board '((0 0 0)))&quot; &quot;(def concat (0 0 0) board) &quot; &quot;(concat (0 0 0) board)&quot; &quot;(concat board (0 0 0))&quot; &quot;(concat board '(0 0 0))&quot; &quot;(board)&quot; &quot;(def board (concat board '(0 0 0)))&quot; &quot;(def board (concat board '((0 0 0))))&quot; &quot;board&quot; &quot;(ask_move 1 board)&quot; &quot;'(1 1)&quot; &quot;(println \&quot;HELLO!\&quot;)&quot; &quot;(def user_coordinates (read-line))&quot; &quot;'(1 2)&quot; &quot;user_coordinates&quot; &quot;(do (print \&quot;What's your name? \&quot;) (flush) (read-line))&quot; &quot;Clojure&quot; &quot;(println \&quot;Hello\&quot;)&quot; &quot;hey&quot; &quot;(println \&quot;Enter something&gt; \&quot;)\n(def x (read-line))\n(println (str \&quot;You typed \\\&quot;\&quot; x \&quot;\\\&quot;\&quot;))&quot; &quot;\&quot;hey\&quot;&quot; &quot;)&quot; &quot;(read-line)&quot; &quot;hey man&quot; &quot;(def board '((\&quot; \&quot; \&quot; \&quot; \&quot; \&quot;) (\&quot; \&quot; \&quot; \&quot; \&quot; \&quot;) (\&quot; \&quot; \&quot; \&quot; \&quot; \&quot;)))&quot; &quot;(gui board)&quot; &quot;(gui_imperative board)&quot;], :remote []}}</component>
   <component name="RunManager" selected="Clojure Application.core">
+    <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="tic-tac-toe" />
+      <setting name="path" value="$PROJECT_DIR$/src/tic_tac_toe/core.clj" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src/tic_tac_toe" />
+      <setting name="repl" value="false" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -439,7 +499,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="tic-tac-toe" />
+      <module name="tic-tac-toe-clojure" />
       <envs />
       <method />
     </configuration>
@@ -547,66 +607,46 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <configuration default="false" name="REPL for tic-tac-toe" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="1" />
-      <module name="tic-tac-toe" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
-      <module name="tic-tac-toe" />
-      <setting name="path" value="$PROJECT_DIR$/src/tic_tac_toe/core.clj" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workDir" value="$PROJECT_DIR$/src/tic_tac_toe" />
-      <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL for tic-tac-toe" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure Application.core" />
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Clojure Application.core" />
     </list>
+    <recent_temporary>
+      <list size="1">
+        <item index="0" class="java.lang.String" itemvalue="Clojure Application.core" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
-  <component name="SvnConfiguration">
-    <configuration />
-  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a34041be-f738-46c3-b234-522b3263d7d5" name="Default" comment="" />
-      <created>1476551742651</created>
+      <changelist id="f17fb980-125d-4c80-bc6a-0e28cdbe12e8" name="Default" comment="" />
+      <created>1477525143888</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1476551742651</updated>
-      <workItem from="1476551751402" duration="6113000" />
-      <workItem from="1476726484743" duration="1492000" />
-      <workItem from="1477064581808" duration="7687000" />
-      <workItem from="1477499829382" duration="625000" />
-      <workItem from="1477501202758" duration="13018000" />
+      <updated>1477525143888</updated>
+      <workItem from="1477525149323" duration="194000" />
+      <workItem from="1477525359810" duration="155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28935000" />
+    <option name="totallyTimeSpent" value="349000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50625" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.321875" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32980973" sideWeight="0.49375" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -617,7 +657,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39957717" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -647,23 +687,15 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/core.clj">
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe-clojure.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" column="14" selection-start-line="23" selection-start-column="14" selection-end-line="23" selection-end-column="14" />
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/core.clj">
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -671,7 +703,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/core.clj">
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -681,15 +729,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tic-tac-toe-clojure.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tic_tac_toe/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="238">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
           <folding />
         </state>
       </provider>
