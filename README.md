@@ -1,20 +1,18 @@
-# tic-tac-toe
+# Tic-Tac-Toe Clojure
 
-FIXME: description
+This is a simple implementation of the Tic-Tac-Toe game in Clojure. The goal of this project was to get acquainted with the programming language's core concepts and better develop core concepts related to functional programming.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+...
 
 ## Usage
 
-FIXME: explanation
-
-    $ java -jar tic-tac-toe-0.1.0-standalone.jar [args]
+...
 
 ## Options
 
-FIXME: listing of options this app accepts.
+...
 
 ## Examples
 
@@ -24,13 +22,8 @@ FIXME: listing of options this app accepts.
 
 ...
 
-### Any Other Sections
-### That You Think
-### Might be Useful
-
 ## License
 
-Copyright © 2016 FIXME
+Copyright © 2016 NUNOSILVA
 
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+Distributed under the Eclipse Public License version 1.0.
