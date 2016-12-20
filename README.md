@@ -2,26 +2,6 @@
 
 This is a simple implementation of the Tic-Tac-Toe game in Clojure. The goal of this project was to get acquainted with the programming language's core concepts and better develop core concepts related to functional programming.
 
-## Installation
-
-...
-
-## Usage
-
-...
-
-## Options
-
-...
-
-## Examples
-
-...
-
-### Bugs
-
-...
-
 ## License
 
 Copyright © 2016 NUNOSILVA
