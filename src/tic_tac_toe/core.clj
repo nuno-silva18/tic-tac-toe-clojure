@@ -73,6 +73,15 @@
     (do (println "This move is not legal. Please try again!")
         (ask_move player board))))
 
+(defn draw_end
+  "Verifies if the game has ended in a draw"
+    [board]
+    (if (every? true? 
+          (for [x (range 0 3)] 
+            (every? false? (map #(identical? " " %) (nth board x)))))
+          true
+          false))
+
 (defn verif_end
   "Checks if the move made results in the end of the game."
   [player, board, user_coord]
@@ -116,14 +125,20 @@
         (if (verif_end 1 nboard user_coord)
           (do (println (boardstr nboard))
               (println "Player 1 wins!"))
-          (do (println (boardstr nboard))
-              (ask_move 2 nboard))))
+          (do (if (draw_end nboard)
+                  (do (println (boardstr nboard)) 
+                      (println "Game ends in a draw."))
+                  (do (println (boardstr nboard))
+                      (ask_move 2 nboard))))))
       (let [nboard (assoc board y (assoc (nth board y) x \O))]
         (if (verif_end 2 nboard user_coord)
           (do (println (boardstr nboard))
               (println "Player 2 wins!"))
-          (do (println (boardstr nboard))
-              (ask_move 1 nboard)))))))
+          (do (if (draw_end nboard)
+                  (do (println (boardstr nboard)) 
+                      (println "Game ends in a draw."))
+                  (do (println (boardstr nboard)) 
+                  (ask_move 1 nboard)))))))))
 
 (defn -main
   "Main function for the Tic-Tac-Toe game."
